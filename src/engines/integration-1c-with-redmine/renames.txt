@@ -1,0 +1,17 @@
+﻿691846bc-b4a1-4fb1-a914-470f4dee8df8-->und\691846bc-b4a1-4fb1-a914-470f4dee8df8
+691846bc-b4a1-4fb1-a914-470f4dee8df8.0-->Form\Форма
+6a652304-4c72-4f42-b961-b4d4c0dac3bd-->und\6a652304-4c72-4f42-b961-b4d4c0dac3bd
+6a652304-4c72-4f42-b961-b4d4c0dac3bd.0-->und\6a652304-4c72-4f42-b961-b4d4c0dac3bd.0
+b1f79ef2-4d8e-4108-a233-00bb25b18666-->und\b1f79ef2-4d8e-4108-a233-00bb25b18666
+c41d4d58-338d-475e-9fee-433707457d2c-->und\c41d4d58-338d-475e-9fee-433707457d2c
+c41d4d58-338d-475e-9fee-433707457d2c.0-->und\c41d4d58-338d-475e-9fee-433707457d2c.0
+ceaee0d2-5bce-4169-b6ad-905fc83870ef-->und\ceaee0d2-5bce-4169-b6ad-905fc83870ef
+ceaee0d2-5bce-4169-b6ad-905fc83870ef.0-->Form\ФормаЗадачи
+copyinfo-->und\copyinfo
+d8966fa6-1f9f-4801-9127-a4dfcc3c7b72-->und\d8966fa6-1f9f-4801-9127-a4dfcc3c7b72
+d8966fa6-1f9f-4801-9127-a4dfcc3c7b72.0-->Form\ФормаРедактирования
+fb4f8a6b-158a-4798-a08a-cc7cf6f09f01.0\info-->und\fb4f8a6b-158a-4798-a08a-cc7cf6f09f01.0\info
+fb4f8a6b-158a-4798-a08a-cc7cf6f09f01.0\text-->ObjectModule.bsl
+root-->und\root
+version-->und\version
+versions-->und\versions

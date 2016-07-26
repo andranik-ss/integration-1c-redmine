@@ -1,0 +1,1 @@
+oscript .\..\precommit\v8files-extractor.os --compile .\..\src\ .\..\ --recursive

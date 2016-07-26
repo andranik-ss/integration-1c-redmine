@@ -1,1 +1,1 @@
-oscript v8files-extractor.os --decompile g:/gitRepo/integration-1c-redmine/test g:/gitRepo/integration-1c-redmine/src
+oscript .\..\v8files-extractor.os --decompile .\..\ .\..\src

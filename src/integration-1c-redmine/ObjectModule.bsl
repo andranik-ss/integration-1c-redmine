@@ -1,5 +1,6 @@
 ﻿// test post-merge hook to compile epf file
 // test decompile module's
+// cange only this line
 
 //Накопление задач для исключения дублей
 Перем ЗагруженныеДанные Экспорт;

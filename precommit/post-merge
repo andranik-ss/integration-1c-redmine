@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Start hooks after git merge or git pull for compile ert, epf files"
+oscript .git/hooks/v8files-extractor.os --compile ./src  ./ --recursive

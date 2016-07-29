@@ -1,5 +1,6 @@
 integration-1c-redmine.epf
 
+/tests/tests_integration-1c-redmine.epf
 /tests/settings.json
 
 /precommit/v8Reader/V8Reader.epf

@@ -14,4 +14,11 @@ mkdir .\..\.git\hooks\tools
 xcopy .\tools\v8unpack.exe .\..\.git\hooks\tools\ /Y /F
 
 cd .\..\
+
+echo storage localization to use Cyrillic characters
 git config --local core.quotepath false
+
+echo init used submodules
+git submodule update --init --recursive
+
+

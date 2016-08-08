@@ -394,9 +394,10 @@
 	
 	Перем мПароль, мПользователь;
 	
-	Таймаут = 3;
+	Таймаут = 5;
 	ОбязательныйПараметр = "";
-	//		Authentication Most of the time, the API requires authentication. To enable the API-style authentication, you have to check Enable REST API in Administration -> Settings -> Authentication. 
+	
+	//{		Authentication Most of the time, the API requires authentication. To enable the API-style authentication, you have to check Enable REST API in Administration -> Settings -> Authentication. 
 	//  Then, authentication can be done in 2 different ways:
 	//	using your regular login/password via HTTP Basic authentication.
 	//	using your API key which is a handy way to avoid putting a password in a script. The API key may be attached to each request in one of the following way:
@@ -404,6 +405,7 @@
 	//	passed in as a username with a random password via HTTP Basic authentication
 	//	passed in as a "X-Redmine-API-Key" HTTP header (added in Redmine 1.1.0)
 	//	You can find your API key on your account page ( /my/account ) when logged in, on the right-hand pane of the default layout.
+	//}
 	Если БазоваяАутентификация Тогда
 		ОбязательныйПараметр	= "?";
 		мПароль					= Пароль;

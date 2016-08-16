@@ -206,6 +206,10 @@
 	Если Отборы Тогда
 		ПоляВыбора = Новый Структура("queries", 
 									"queries");
+        Если ЗначениеЗаполнено(Проект) Тогда
+            мПроект = ПолучитьИдентификаторПараметра(Проект, "projects");
+            ПоляВыбора.Вставить("memberships", "projects/"+мПроект+"/memberships");                                
+        КонецЕсли;
 	Иначе
 		ПоляВыбора = Новый Структура("trackers, issue_statuses, issue_priorities, time_entry_activities", 
 									"trackers", "issue_statuses", "enumerations/issue_priorities", "enumerations/time_entry_activities");

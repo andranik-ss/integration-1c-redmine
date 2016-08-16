@@ -1,5 +1,7 @@
 ﻿15593028-0724-4d87-ad5a-987baebb04f3-->und\15593028-0724-4d87-ad5a-987baebb04f3
 15593028-0724-4d87-ad5a-987baebb04f3.0-->Form\ФормаНастройкиПанелиПользователя
+37e2d88c-1b48-4718-9cdc-bf2072e0cd1e-->und\37e2d88c-1b48-4718-9cdc-bf2072e0cd1e
+37e2d88c-1b48-4718-9cdc-bf2072e0cd1e.0-->und\37e2d88c-1b48-4718-9cdc-bf2072e0cd1e.0
 691846bc-b4a1-4fb1-a914-470f4dee8df8-->und\691846bc-b4a1-4fb1-a914-470f4dee8df8
 691846bc-b4a1-4fb1-a914-470f4dee8df8.0-->Form\Форма
 6a652304-4c72-4f42-b961-b4d4c0dac3bd-->und\6a652304-4c72-4f42-b961-b4d4c0dac3bd

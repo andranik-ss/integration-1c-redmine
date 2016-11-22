@@ -5,3 +5,5 @@ integration-1c-redmine.epf
 
 /precommit/v8Reader/V8Reader.epf
 /precommit/*.log
+
+/scripts/deploy.cmd

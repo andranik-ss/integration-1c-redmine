@@ -1,4 +1,5 @@
 ﻿Form\ФормаУправляемая\Форма.bsl-->6a652304-4c72-4f42-b961-b4d4c0dac3bd.0 (8 031, 9 056)
 Макеты\redmine_32x32_png.txt-->c0af406c-58c2-4d78-9d7b-80c451ca5647.0
+Макеты\showdown_min_js.txt-->60101dac-fdfa-42a6-9bfc-b08a18a5c615.0
 Макеты\textile_js.txt-->c41d4d58-338d-475e-9fee-433707457d2c.0
 Макеты\ИнтегрироватьВирПортативные.mxl-->37e2d88c-1b48-4718-9cdc-bf2072e0cd1e.0

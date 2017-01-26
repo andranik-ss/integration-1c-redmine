@@ -2,8 +2,8 @@
 // Исключаем повторную инициализацию HTTPСоединения
 Перем мHTTPСоединение;
 
-// Путь к внешней библиотеке конвертера Teaxtile В HTML
-Перем мКонвертерTextileToHTML;
+// Путь к внешней библиотеке конвертера В HTML
+Перем мКонвертерТекстаВHTML;
 
 // Реализация прав доступа к некоторым функциям (удаление задач)
 Перем мПолныеПрава Экспорт;
@@ -1190,36 +1190,132 @@
 КонецПроцедуры
 
 
-Функция ПолучитьТекстИнициализацииКовертераВПолеHTML() Экспорт
+Функция ПолучитьТекстИнициализацииКовертераВПолеHTML(ОбновитьПуть=Ложь) Экспорт
 	
-	Если НЕ ЗначениеЗаполнено(мКонвертерTextileToHTML) Тогда
-		Возврат "";
+	Если ФорматированиеТекста = "none" Тогда
+		ТекстHTML =
+		"<!DOCTYPE html> 
+		|<html>
+		|	<head>
+		|	  	<meta http-equiv=""X-UA-Compatible"" content=""IE=9"" charset=""utf-8"" />
+		|	</head> 
+		|	<body>
+		|		<div><font color=""#FF0000"">Внимание!</font></div>
+		|		<div>Форматирование текста отключено, проверьте настройки обработки.</div>
+		|		<blockquote>
+		|			<div><var>Для корректного форматирования описания, значение данной настройки должно совпадать с соответствующей настройкой в трекере!</var></div>
+		|		</blockquote>
+		|	</body> 
+		|</html>";
+	ИначеЕсли ФорматированиеТекста = "Textile" Тогда	
+		
+		Если НЕ ЗначениеЗаполнено(мКонвертерТекстаВHTML) Или ОбновитьПуть Тогда
+			мКонвертерТекстаВHTML = СохранитьКонвертерИзМакетаВФайл("textile_js");			
+			Если мКонвертерТекстаВHTML = Неопределено Тогда
+				ТекстHTML =
+				"<!DOCTYPE html> 
+				|<html>
+				|	<head>
+				|	  	<meta http-equiv=""X-UA-Compatible"" content=""IE=9"" charset=""utf-8"" />
+				|	</head> 
+				|	<body>
+				|		<div><font color=""#FF0000"">Ошибка!</font></div>
+				|		<p>Не удалось получить конвертер форматирования текста!</p>
+				|	</body> 
+				|</html>";
+			КонецЕсли;
+		КонецЕсли;
+		
+		ТекстHTML =
+		"<!DOCTYPE html> 
+		|<html>
+		|	<head>
+		|	  	<meta http-equiv=""X-UA-Compatible"" content=""IE=9"" charset=""utf-8"" />
+		|		<script type=""text/javascript"" src="+ФорматированиеПути(мКонвертерТекстаВHTML)+"></script>
+		|		<script type='text/javascript'>
+		|		function TextileToHTML() 
+		|		{
+		|		var text=document.getElementById(""txt"").innerHTML;
+		|		// для передачи значения в 1С используем элемент ""BufferData""
+		|		document.getElementById(""BufferData"").innerHTML = textile(text);
+		|		}
+		|		</script>	
+		|	</head> 
+		|	<body>
+		|		<p><input type=""text"" style=""display:none"" id=""txt"" maxlength=""1000"" size=""40"" value=""Введите текст в формате: <pre> *Textile* </pre>""/></p>
+		|		<input type=""button"" style=""display:none"" onClick=""TextileToHTML()"" name=""b_exec"" id=""SendEvent"" value=""Execute""/> 
+		|		<p><div id=""BufferData""></div></p>
+		|	</body> 
+		|</html>";
+	ИначеЕсли ФорматированиеТекста = "Markdown" Тогда	
+		
+		Если НЕ ЗначениеЗаполнено(мКонвертерТекстаВHTML) Или ОбновитьПуть Тогда
+			мКонвертерТекстаВHTML = СохранитьКонвертерИзМакетаВФайл("showdown_min_js");	
+			Если мКонвертерТекстаВHTML = Неопределено Тогда
+				ТекстHTML =
+				"<!DOCTYPE html> 
+				|<html>
+				|	<head>
+				|	  	<meta http-equiv=""X-UA-Compatible"" content=""IE=9"" charset=""utf-8"" />
+				|	</head> 
+				|	<body>
+				|		<div><font color=""#FF0000"">Ошибка!</font></div>
+				|		<p>Не удалось получить конвертер форматирования текста!</p>
+				|	</body> 
+				|</html>";
+			КонецЕсли;
+		КонецЕсли;
+		
+		ТекстHTML =
+		"<!DOCTYPE html> 
+		|<html>
+		|	<head>
+		|	  	<meta http-equiv=""X-UA-Compatible"" content=""IE=9"" charset=""utf-8"" />
+		|		<script type=""text/javascript"" src="+ФорматированиеПути(мКонвертерТекстаВHTML)+"></script>
+		|		<script type='text/javascript'>
+		|		function MarkdownToHTML() {
+		|			var text=document.getElementById(""txt"").innerHTML;
+		|			
+		|			var converter = new showdown.Converter();
+		|			converter.setOption('strikethrough', true);
+		|			converter.setOption('tables', true);
+		|			converter.setOption('tasklists', true);
+		|			converter.setOption('ghCodeBlocks', true);
+		|			converter.setOption('simplifiedAutoLink', true);
+		|			converter.setOption('excludeTrailingPunctuationFromURLs', true);
+
+		|			// для передачи значения в 1С используем элемент ""BufferData""
+		|			document.getElementById(""BufferData"").innerHTML = converter.makeHtml(text);
+		|		}
+		|		</script>	
+		|	</head> 
+		|	<body>
+		|		<p><input type=""text"" style=""display:none"" id=""txt"" maxlength=""1000"" size=""40"" value=""Введите текст в формате: <pre> *Textile* </pre>""/></p>
+		|		<input type=""button"" style=""display:none"" onClick=""MarkdownToHTML()"" name=""b_exec"" id=""SendEvent"" value=""Execute""/> 
+		|		<p><div id=""BufferData""></div></p>
+		|	</body> 
+		|</html>";
+		
 	КонецЕсли;
-	
-	ТекстHTML =
-	"<!DOCTYPE html> 
-	|<html>
-	|	<head>
-	|	  	<meta http-equiv=""X-UA-Compatible"" content=""IE=9"" charset=""utf-8"" />
-	|		<script type=""text/javascript"" src="+ФорматированиеПути(мКонвертерTextileToHTML)+"></script>
-	|		<script type='text/javascript'>
-	|		function TextileToHTML() 
-	|		{
-	|		var text=document.getElementById(""txt"").innerHTML;
-	|		// для передачи значения в 1С используем элемент ""BufferData""
-	|		document.getElementById(""BufferData"").innerHTML = textile(text);
-	|		}
-	|		</script>	
-	|	</head> 
-	|	<body>
-	|		<p><input type=""text"" style=""display:none"" id=""txt"" maxlength=""1000"" size=""40"" value=""Введите текст в формате: <pre> *Textile* </pre>""/></p>
-	|		<input type=""button"" style=""display:none"" onClick=""TextileToHTML()"" name=""b_exec"" id=""SendEvent"" value=""Execute""/> 
-	|		<p><div id=""BufferData""></div></p>
-	|	</body> 
-	|</html>";
 	
 	Возврат ТекстHTML;
 КонецФункции
+
+Функция СохранитьКонвертерИзМакетаВФайл(ИмяМакета)
+	
+// Для конвертирования текста в формате Textile в HTML используется textile-js
+	// https://github.com/borgar/textile-js
+	// Copyright © 2012, Borgar Þorsteinsson (MIT License).
+	СкриптJS = ПолучитьИмяВременногоФайла("js");
+	Попытка
+		ПолучитьМакет(ИмяМакета).Записать(СкриптJS);
+	Исключение 
+		Возврат Неопределено;	
+	КонецПопытки;
+	
+	Возврат СкриптJS;
+КонецФункции
+
 
 Функция ФорматированиеПути(Путь)
 	Возврат СтрЗаменить(Путь, "\", "/");
@@ -2975,14 +3071,6 @@
 
 ЗагруженныеДанные = ?(ЗагруженныеДанные = Неопределено, Новый Соответствие, ЗагруженныеДанные);
 
-// Для конвертирования текста в формате Textile в HTML используется textile-js
-// https://github.com/borgar/textile-js
-// Copyright © 2012, Borgar Þorsteinsson (MIT License).
-СкриптJS = ПолучитьИмяВременногоФайла("js");
-Попытка
-	ПолучитьМакет("textile_js").Записать(СкриптJS);
-	мКонвертерTextileToHTML = СкриптJS; 
-Исключение КонецПопытки;
 
 СоответствиеИменПолей = Новый Соответствие;
 // Общие поля

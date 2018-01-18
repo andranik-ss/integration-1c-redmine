@@ -1,1 +1,1 @@
-oscript .\..\precommit\v8files-extractor.os --compile .\..\src\ .\..\epf --recursive
+oscript .\..\precommit\v8files-extractor.os --compile .\..\src\ .\..\ --recursive

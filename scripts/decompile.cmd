@@ -1,1 +1,1 @@
-oscript .\..\precommit\v8files-extractor.os --decompile .\..\epf .\..\src
+oscript .\..\precommit\v8files-extractor.os --decompile .\..\ .\..\src

@@ -152,7 +152,7 @@
 {3,0,
 {0},4,1,0,00000000-0000-0000-0000-000000000000},
 {1,0},0,0},9,2,1,0,1,1,
-{5,32747082-ef24-423f-b0ca-de33c7a87577,192,1,0,1,
+{5,32747082-ef24-423f-b0ca-de33c7a87577,189,1,0,1,
 {5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,0,
 {0,0,
 {0}
@@ -219,12 +219,7 @@
 {0},7,1,0,00000000-0000-0000-0000-000000000000},
 {1,0},0,0},9,2,0,2,0,1,
 {5,c272994a-12d9-4296-8e72-f68b66aa7701,4,1,3,
-{6,be66cd5f-bc13-4836-b3f5-3ae014e0a0ac,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
-{6,2,00000000-0000-0000-0000-000000000000,142,
-{1,0,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0},
-{6,7685d7f8-cceb-4368-a708-95fbc4d0feb0,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
-{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
-{6,7198a3cc-8d24-4194-881c-25103a9a0133,1,e1692cc2-605b-4535-84dd-28440238746c,
+{6,c21b6bf8-e8bb-4241-aac9-eb384b452f9b,1,e1692cc2-605b-4535-84dd-28440238746c,
 {3,"ОсновныеДействияФормыОсновныеДействияФормыВыполнить",
 {1,"ОсновныеДействияФормыОсновныеДействияФормыВыполнить",
 {1,1,
@@ -240,14 +235,19 @@
 {0},"",-1,-1,1,0,""},
 {0,0,0}
 }
-},0},1,
-{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,3,7198a3cc-8d24-4194-881c-25103a9a0133,
+},0},
+{6,df7123ac-8680-4578-b67b-1a1b6cb7c65f,1,abde0c9a-18a6-4e0c-bbaa-af26b911b3e6,
+{1,9d0a2e40-b978-11d4-84b6-008048da06df,0},0},
+{6,541cea07-1b96-4f0b-a2ef-4f5d69ed8a34,1,fbe38877-b914-4fd5-8540-07dde06ba2e1,
+{6,2,00000000-0000-0000-0000-000000000000,142,
+{1,0,357c6a54-357d-425d-a2bd-22f4f6e86c87,2147483647,0},0,1},0},1,
+{5,b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,0,3,c21b6bf8-e8bb-4241-aac9-eb384b452f9b,
 {8,"ОсновныеДействияФормыВыполнить",0,1,
 {1,1,
 {"ru","Выполнить"}
-},1,c272994a-12d9-4296-8e72-f68b66aa7701,1,1e2,0,1,1,0,1,0,0},7685d7f8-cceb-4368-a708-95fbc4d0feb0,
+},1,c272994a-12d9-4296-8e72-f68b66aa7701,1,1e2,0,1,1,0,1,0,0},df7123ac-8680-4578-b67b-1a1b6cb7c65f,
 {8,"Разделитель",0,1,
-{1,0},0,c272994a-12d9-4296-8e72-f68b66aa7701,2,1e2,2,1,1,0,1,0,0},be66cd5f-bc13-4836-b3f5-3ae014e0a0ac,
+{1,0},0,c272994a-12d9-4296-8e72-f68b66aa7701,2,1e2,2,1,1,0,1,0,0},541cea07-1b96-4f0b-a2ef-4f5d69ed8a34,
 {8,"ОсновныеДействияФормыЗакрыть",0,1,
 {1,1,
 {"ru","Закрыть"}
@@ -256,7 +256,7 @@
 {0}
 }
 }
-},b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,dcd25508-66fb-46c5-bdba-8fd21c3e0711,1,0,0}
+},b78f2e80-ec68-11d4-9dcf-0050bae2bc79,4,ea16258e-ba27-4aad-a281-2a6300ffd295,1,0,0}
 },
 {8,0,494,966,519,1,
 {0,
@@ -317,7 +317,7 @@
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Трекер:"}
 },0,1,0,0,0,
@@ -330,7 +330,7 @@
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,8,58,61,77,1,
@@ -495,7 +495,7 @@
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Тема:"}
 },0,1,0,0,0,
@@ -508,7 +508,7 @@
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,148,58,184,77,1,
@@ -803,7 +803,7 @@
 {3,0,
 {0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0},
-{17,117644288,
+{16,117644288,
 {3,4,
 {0}
 },
@@ -1088,7 +1088,7 @@ LcBXUoTHLMUxiemmOOSiH9G5w57cSrB2zmmspq14J2pcbc1dS6SWpK1aLb0nI7VX
 {-1}
 },"Пометка","","",0}
 }
-},0,0,0,0,0,0,0}
+},0,0,0,0,0,0}
 },
 {342cf854-134c-42bb-8af9-a2103d5d9723,
 {5,0,0,1}
@@ -1188,7 +1188,7 @@ LcBXUoTHLMUxiemmOOSiH9G5w57cSrB2zmmspq14J2pcbc1dS6SWpK1aLb0nI7VX
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Проект:"}
 },0,1,0,0,0,
@@ -1201,7 +1201,7 @@ LcBXUoTHLMUxiemmOOSiH9G5w57cSrB2zmmspq14J2pcbc1dS6SWpK1aLb0nI7VX
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,8,33,61,52,1,
@@ -1590,7 +1590,7 @@ LcBXUoTHLMUxiemmOOSiH9G5w57cSrB2zmmspq14J2pcbc1dS6SWpK1aLb0nI7VX
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,0},4,1,0,0,0,
 {0,0,0},0,
 {1,0},1,
@@ -1601,7 +1601,7 @@ LcBXUoTHLMUxiemmOOSiH9G5w57cSrB2zmmspq14J2pcbc1dS6SWpK1aLb0nI7VX
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,448,33,641,52,1,
@@ -2137,7 +2137,7 @@ LcBXUoTHLMUxiemmOOSiH9G5w57cSrB2zmmspq14J2pcbc1dS6SWpK1aLb0nI7VX
 {3,0,
 {0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0},
-{17,117644840,
+{16,117644840,
 {3,4,
 {0}
 },
@@ -2305,18 +2305,18 @@ JMNJVGbPbV0esnNfRYXubwXVPMoW3VnRH3V4YWrv09IqpURYv+bSqbhNqyoeyCN3
 {"N",10,0,0}
 },0,1,381ed624-9217-4e63-85db-c4c3cb87daae,
 {
-{#base64:AgFTS2/0iI3BTqDV67a9oKcNfVFLDsIgENVtk16CNSQM0MJcwrjxAFW7dWG6aziZ
-C4/k2p0M06K20UKYvjef9wjP7SZ/j9t9RFlXo9h3w9BfLyKDnZCgZVqxriIxvMFK
-IGSlo1CyS+ylTc2QZuiYfnKFpaCM+dWzxtzhl4SBN5PdKAikQm4Jgsyi6TDI9NcC
-Phk4dicOIpYoBDkv9YmeqnTOKaBNecFNf7Jlwtrdp6PWe2+gma+VL4Wdb509GwXY
-o3JNb1QIaJUJ+nhCwKZDz+pL/yQ9P900MUsCW2ED8QU=},0}
+{#base64:AgFTS2/0iI3BTqDV67a9oKcNfVA7DsIwDIUVqZfInEhx0jbxJRALByjQlQF1q3Iy
+Bo7EzEZslwCtIIniPD9/nvNYr3jdr7cRdbUZ1a4bhv5yVgy2SoPVeadqk8gjB7wG
+Ql7XZAo7x0H7nAy5hk35wRGejHHuV84SS0aYOxy8PazGQKQupJYgaG6aL4fi/tog
+t4Ba1Km9SsUqVaKs0FOUZc4AHeKVJP1hS4Wluk9FbQjBQfMai4fCLrS1PzkD2KOp
+m96ZGNEbF+3hiIBNh0G6z/VbmYA/cqrILUGkiID0BA==},0}
 },
 {-1},
 {-1},
 {-1}
 },"Идентификатор","","",0}
 }
-},0,0,0,0,0,0,0}
+},0,0,0,0,0,0}
 },
 {9ab3fa70-d2e0-4e44-baac-730682272ed2,
 {4,1,1,
@@ -2573,7 +2573,7 @@ o3JNb1QIaJUJ+nhCwKZDz+pL/yQ9P900MUsCW2ED8QU=},0}
 {-18},0,0,0},
 {1,0},0,0},29,0,0,0,0,0,0,0,0,0,1,0,0,10,0,0,4,0,
 {"U"},
-{"U"},"",1,1,0,0,0,0,
+{"U"},"",0,1,0,0,0,0,
 {4,0,
 {0},"",-1,-1,1,0,""},
 {4,0,
@@ -2649,7 +2649,7 @@ o3JNb1QIaJUJ+nhCwKZDz+pL/yQ9P900MUsCW2ED8QU=},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Номер задачи:"}
 },4,1,0,0,0,
@@ -2662,7 +2662,7 @@ o3JNb1QIaJUJ+nhCwKZDz+pL/yQ9P900MUsCW2ED8QU=},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,256,33,343,52,0,
@@ -2727,7 +2727,7 @@ o3JNb1QIaJUJ+nhCwKZDz+pL/yQ9P900MUsCW2ED8QU=},0}
 {3,0,
 {0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0},
-{17,117644288,
+{16,117644288,
 {3,4,
 {0}
 },
@@ -2884,11 +2884,11 @@ o3JNb1QIaJUJ+nhCwKZDz+pL/yQ9P900MUsCW2ED8QU=},0}
 {"N",10,0,0}
 },0,1,381ed624-9217-4e63-85db-c4c3cb87daae,
 {
-{#base64:AgFTS2/0iI3BTqDV67a9oKcNjVFBDsIgENRrk36CMyQs0MJ+wnjxAVV79WB6a3iZ
-B5/k0ass26K2iREIy8yyO0N4bjd5PG73EWVdjWLfDUN/vYgMdkKClmnGuorE8AIr
-gZCVjkLJLrGXNhVD6qFjOvxRscaWgvJLwsCbyV4UBNIgrwRBZsm0GWT6awLvDBx7
-EwcRSxSCfJf7iZ5u6ZxTQIvygot+ZEuHtbtPR6333kAzPys/CjvfOns2CrBH5Zre
-qBDQKhP08YSATYee1Zf+SXr+uKljlgS2wgbiCw==},0}
+{#base64:AgFTS2/0iI3BTqDV67a9oKcNjVAxDsIwDIQVqZ/InEhx0jbxJxALDyjQlQF1q/Iy
+Bp7EyEpslwCthEgiO+eL7XMe6xWv+/U2oq42o9p1w9BfzorBVmmwOu9UbRJF5IDX
+QMjrmlxh5zhon5Mh17ApX/7IWGJPzoR5wME7wloMROpBWgmC5pbZOJTw1waxAmrR
+pvYqFa9UeWWFnl5Z5gzQIV5J0g+2VFiq+1TUhhAcNK+xeCjsQlv7kzOAPZq66Z2J
+Eb1x0R6OCNh0GKT7XL+VCfgjp4rcEkSKCEhP},0}
 },
 {-1},
 {-1},
@@ -2948,7 +2948,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {-1}
 },"Имя","","",0}
 }
-},0,0,0,0,0,0,0}
+},0,0,0,0,0,0}
 },
 {342cf854-134c-42bb-8af9-a2103d5d9723,
 {5,0,0,1}
@@ -3195,7 +3195,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Статус:"}
 },0,1,0,0,0,
@@ -3208,7 +3208,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,0,30,125,49,1,
@@ -3372,7 +3372,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Приоритет:"}
 },0,1,0,0,0,
@@ -3385,7 +3385,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,0,54,125,73,1,
@@ -3556,7 +3556,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {"ru","Номер рродительской задачи"}
 },0,0},29,0,0,0,0,0,0,0,0,0,1,0,0,10,0,0,4,0,
 {"U"},
-{"U"},"",1,1,0,0,0,0,
+{"U"},"",0,1,0,0,0,0,
 {4,0,
 {0},"",-1,-1,1,0,""},
 {4,0,
@@ -3631,7 +3631,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Оценка времени:"}
 },0,1,0,0,0,
@@ -3644,7 +3644,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,363,78,480,97,1,
@@ -3714,7 +3714,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {"ru","Оценка времени"}
 },0,0},29,0,0,0,0,0,0,0,0,0,1,0,0,10,2,0,4,0,
 {"U"},
-{"U"},"",1,1,0,0,0,0,
+{"U"},"",0,1,0,0,0,0,
 {4,0,
 {0},"",-1,-1,1,0,""},
 {4,0,
@@ -3789,7 +3789,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Начало выполнения:"}
 },0,1,0,0,0,
@@ -3802,7 +3802,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,363,30,480,49,1,
@@ -3872,7 +3872,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {"ru","Начало выполнения"}
 },0,0},29,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,4,0,
 {"U"},
-{"U"},"",2,1,0,0,0,0,
+{"U"},"",0,1,0,0,0,0,
 {4,0,
 {0},"",-1,-1,1,0,""},
 {4,0,
@@ -3947,7 +3947,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Конец выполнения:"}
 },0,1,0,0,0,
@@ -3960,7 +3960,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,363,54,480,73,1,
@@ -4030,7 +4030,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {"ru","Конец выполнения"}
 },0,0},29,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,4,0,
 {"U"},
-{"U"},"",2,1,0,0,0,0,
+{"U"},"",0,1,0,0,0,0,
 {4,0,
 {0},"",-1,-1,1,0,""},
 {4,0,
@@ -4105,7 +4105,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Исполнитель:"}
 },0,1,0,0,0,
@@ -4118,7 +4118,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,0,78,125,97,1,
@@ -4281,7 +4281,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Затраченное время:"}
 },0,1,0,0,0,
@@ -4294,7 +4294,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,0,11,110,30,1,
@@ -4363,7 +4363,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {"ru","Затраченное время"}
 },0,0},29,0,0,0,0,0,0,0,0,0,1,0,0,10,2,0,4,0,
 {"U"},
-{"U"},"",1,1,0,0,0,0,
+{"U"},"",0,1,0,0,0,0,
 {4,0,
 {0},"",-1,-1,1,0,""},
 {4,0,
@@ -4519,7 +4519,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","в час(а, ов)"}
 },4,1,0,0,0,
@@ -4532,7 +4532,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,234,11,292,30,1,
@@ -4657,7 +4657,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Деятельность:"}
 },0,1,0,0,0,
@@ -4670,7 +4670,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,303,11,380,30,1,
@@ -4836,7 +4836,7 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {3,0,
 {0},0,1,0,48312c09-257f-4b29-b280-284dd89efc1e},
 {1,0},0,0},
-{17,117644288,
+{16,117644288,
 {3,4,
 {0}
 },
@@ -4993,11 +4993,11 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {"N",10,0,0}
 },0,1,381ed624-9217-4e63-85db-c4c3cb87daae,
 {
-{#base64:AgFTS2/0iI3BTqDV67a9oKcNjVFBDsIgENRrk36CMyQs0MJ+wnjxAVV79WB6a3iZ
-B5/k0ass26K2iREIy8yyO0N4bjd5PG73EWVdjWLfDUN/vYgMdkKClmnGuorE8AIr
-gZCVjkLJLrGXNhVD6qFjOvxRscaWgvJLwsCbyV4UBNIgrwRBZsm0GWT6awLvDBx7
-EwcRSxSCfJf7iZ5u6ZxTQIvygot+ZEuHtbtPR6333kAzPys/CjvfOns2CrBH5Zre
-qBDQKhP08YSATYee1Zf+SXr+uKljlgS2wgbiCw==},0}
+{#base64:AgFTS2/0iI3BTqDV67a9oKcNjVAxDsIwDIQVqZ/InEhx0jbxJxALDyjQlQF1q/Iy
+Bp7EyEpslwCthEgiO+eL7XMe6xWv+/U2oq42o9p1w9BfzorBVmmwOu9UbRJF5IDX
+QMjrmlxh5zhon5Mh17ApX/7IWGJPzoR5wME7wloMROpBWgmC5pbZOJTw1waxAmrR
+pvYqFa9UeWWFnl5Z5gzQIV5J0g+2VFiq+1TUhhAcNK+xeCjsQlv7kzOAPZq66Z2J
+Eb1x0R6OCNh0GKT7XL+VCfgjp4rcEkSKCEhP},0}
 },
 {-1},
 {-1},
@@ -5103,24 +5103,25 @@ m4acto05ngjJtxSk+tK/kQ74I8cXuSSKFTEQXw==},0}
 {"N",10,0,0}
 },0,1,381ed624-9217-4e63-85db-c4c3cb87daae,
 {
-{#base64:AgFTS2/0iI3BTqDV67a9oKcNpVQ9jhUxDKagWmkvEdqxFDtxHLeIGiEhDpDfkmK1
-3eqdjIIjcQEKMpOZAd4i9BaSmSSOk8+fYyffX7/ayrcvX590ub97Mh/S42N7+Gw2
-4Y1ZKNrO3TbQEhN4LQVyDxV8JQ2loKTgLtvit2b2H83irF1wSu/MMv45fm8WtMuo
-l/u7bWZ+6BZcJbf4tTu117IsbmzGgWEvY3DDjueyWzuQ6wnCnzMbF8C42li5riIu
-m8nRkG7TuLd4tkf1k5r5tDu99sacW+xU76vspgNcv1Vv5qa/aE+E5+R+qRhEhJAP
-r7bYapLgXSVAbQqeG0GM6mCEOBdF5aQyrV/zt9OD8xxtcDZ3aeB7y+CbxoHU00Dy
-vQdMJDWcHPcCf2iOcngx4HcLiL1hJgaVwmuyMaTsOsSiiQMzErUZrlvwT1TxShoR
-EhcPnjxCdF2BEhV2oSLa/nvC2NYkS4FYUxmOkoXMsUGTLuIptVjjJI8vIuJSSOJY
-gUkFPGoF9WFcrZRyakRKKb/kAA9c7oFDUYXW3AhMzgIDCqGFPqLrChWtBy79Y2gi
-RyYrebwIaXAnHiMXGVrsNUjxDf12JvwfNqpQ7CNDodmA4EMcftSYwabx+NhoPdGR
-YDeezpG5l/0mnvfm8gM=},0}
+{#base64:AgFTS2/0iI3BTqDV67a9oKcNpVQ7jhYxDKahWWkvMbRjKXaebhE1QkIcwEmckmK1
+3eo/GQXiRFwBzxP4F6F9JDNJHCef3/nx9s3afn77/sDz7c3D9Enu7/Xu67QS76aZ
+ihtxOAVuRSBwa1BH6hA6cWoNsyR/WQ+/n7b58zR752bcqA/TbP+2/jjN6Gbrl9ub
+dWf70M+4UH4Oy3Ryr+k8e7uMhuEutnjCjce0XybI1xuEv3dWXQDLImPRdSFxXkXa
+QLxu4z7iOR49bKpNX3ajl3mazituY++n3MoDXL6FP22X/sM9ER4r90fHlHMmjIdV
+uBrFklPwnQBZGUJUglLYg8W4NkaOwnkTf22A20w4HemSd3VkhTC0QlAuhjTEkMIY
+CYVyT6eSe4N/DEc7zDD4U+OhWCkC5xaXbIsg1Q8ojSWmGJFIt3g9Bf9ETVKDjggF
+i+k9LKWFY4GI2kNQl2uXXZeX6p0DExcEiS1AoIBQ/GAgoRZ96ohu/J2TTjXX3KB0
+aeZKclBjUdA8cg4kWnrZxOCzTPWSJPvIEIkzBOQOHJJVr0gVJWKS+pwQHbhxpJga
+M6h6c2GtGQwKQdOw/PGNGvcDl17oxBJLJAuGPTpiulO0lS8RtIyecguKYfVJfIUM
+Tlkd2UvWXbViYHMSj8Bg8VF0QtWxf10K90xlWJWBuoQQUjEJ3dLOib2grrhAdBTJ
+E/1/VN9lf07O4r/8Ag==},0}
 },
 {-1},
 {-1},
 {-1}
 },"Значение","","",0}
 }
-},0,0,0,0,0,0,0}
+},0,0,0,0,0,0}
 },
 {342cf854-134c-42bb-8af9-a2103d5d9723,
 {5,0,0,1}
@@ -5203,7 +5204,7 @@ YDeezpG5l/0mnvfm8gM=},0}
 },
 {3,0,
 {0},0,0,0,48312c09-257f-4b29-b280-284dd89efc1e},
-{1,0},0,0},10,
+{1,0},0,0},9,
 {1,1,
 {"ru","Родительская задача:"}
 },0,1,0,0,0,
@@ -5216,7 +5217,7 @@ YDeezpG5l/0mnvfm8gM=},0}
 {0},"",-1,-1,1,0,""},
 {4,0,
 {0},"",-1,-1,1,0,""}
-},4,0,0,0},
+},4,0,0},
 {0}
 },
 {8,0,6,125,25,1,
@@ -5395,7 +5396,7 @@ YDeezpG5l/0mnvfm8gM=},0}
 }
 }
 }
-},966,519,1,0,1,4,4,436,966,519,96},
+},966,519,1,0,1,4,4,434,966,519,96},
 {
 {1},43,
 {23,
